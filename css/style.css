@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=M+PLUS+1p:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap');
+
+* {
+    margin: 0em;
+    padding: 0em;
+
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+
+header,
+section {
+    overflow: hidden;
+}
+#loading {
+    background-color: #FFF;
+    height: 100%;
+    width: 100%;
+}
+/*start-my-nav-section*/
+#my-nav {
+    font-family: 'M PLUS 1p', sans-serif;
+    margin: 0rem 0rem !important;
+    padding: 0rem 0rem !important;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar {
+    background: transparent;
+    margin: 0rem;
+    transition-duration: 0.7s;
+}
+
+.navbar.scrolled {
+    background: #003366;
+
+}
+
+.navbar a {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff !important;
+    padding: 5px;
+    margin-left: 0.4em;
+}
+
+.active-nav {
+    color: #fff !important;
+    background-color: #ff9933;
+    border-bottom-right-radius: 1rem;
+}
+
+.navbar a:hover {
+    color: #fff !important;
+    background-color: #ff9933;
+    transition-duration: 0.6s;
+    border-bottom-right-radius: 1rem;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.fas {
+    color: #ff9933;
+    font-size: 1.4rem;
+}
+
+/*start-my-slider*/
+#my-slider {
+    background-size: cover;
+    background-position: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.carousel-caption {
+    padding-bottom: 4em;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+.carousel-caption h2 {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tagline {
+    color: #fff;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.carousel-caption h2 span {
+    color: #ff9933;
+}
+
+.carousel-caption p {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 1.5em !important;
+}
+
+.button {
+    display: inline-flex;
+    height: 40px;
+    width: 150px;
+    box-shadow: 0 5px 15px rgba(255, 153, 51, 1);
+    border-radius: 0.4rem;
+    margin: 20px 20px 20px 20px;
+    color: #fff !important;
+    background-color: #ff9933;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .8em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none !important;
+    letter-spacing: 1px;
+}
+
+#button-5 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#button-5 a {
+    position: relative;
+    transition: all .45s ease-Out;
+    font-size: 1.2em;
+}
+
+#translate {
+    transform: rotate(50deg);
+    width: 100%;
+    height: 250%;
+    left: -200px;
+    top: -30px;
+    background: #003366;
+    position: absolute;
+    transition: all .3s ease-Out;
+}
+
+#button-5:hover #translate {
+    left: 0;
+}
+
+#button-5:hover a {
+    color: #FFF;
+}
+
+/*start-home-section*/
+#content {
+    background-color: #dbd9d9;
+}
+
+h3 {
+    position: relative;
+    text-align: center
+}
+
+h3:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -6px;
+    width: 130px;
+    height: 3px;
+    background: #ff9933;
+    transform: translateX(-65px)
+        /*    width/2    */
+}
+
+.alpha-style {
+    color: #ff9933;
+    font-size: 2.5rem !important;
+}
+
+#home {
+    text-align: center;
+}
+
+#home h3 {
+    font-family: 'Abril Fatface', cursive !important;
+    font-size: 3rem;
+    margin-top: 4rem;
+}
+
+.tagline-home {
+    color: #ff9933;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 2rem;
+
+}
+
+#home p {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 1.5em !important;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 5rem;
+}
+
+#home img {
+    box-shadow: 0 5px 15px rgb(20, 13, 5);
+    border-radius: 1rem;
+    margin-left: 4rem;
+    margin-top: 5rem;
+}
+
+/*start-about-us*/
+#about-us {
+    margin-top: 2rem;
+}
+
+#about-us h3 {
+    font-family: 'Abril Fatface', cursive !important;
+    font-size: 3rem;
+    margin-top: 4rem;
+}
+
+.alpha-heading {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+    color: #ff9933;
+}
+
+#about-us p {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 1.5em !important;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+#about-us img {
+    width: 100%;
+}
+
+/*start-our-mission*/
+
+#our-mission {
+    margin-top: 5rem;
+    text-align: center;
+    background-image: url(../img/our-mission.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#our-mission h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+    margin-top: 3rem;
+    color: #fff;
+}
+
+#our-mission p {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 1.5em !important;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+/*start-our-product*/
+#our-products {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#our-products h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+#our-products {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 1.5em !important;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.card {
+
+    margin-top: 2rem;
+    /* width: 21rem !important; */
+}
+
+.card-center {
+    align-content: center;
+}
+
+.card-title {
+    font-size: 1.6rem !important;
+}
+
+.card .button {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.card-text {
+    font-size: 1.2rem !important;
+    margin-top: 1rem;
+}
+
+
+
+
+
+/*OUR-TEAM*/
+
+
+#our-team {
+    text-align: center;
+    align-items: center;
+
+
+}
+
+#our-team h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+    margin-top: 3rem;
+
+}
+
+#our-team img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    align-self: center;
+}
+
+#our-team .card {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 5px;
+
+
+
+}
+
+#our-team h5 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+#our-team p {
+    color: #ff9933;
+    font-weight: bold;
+}
+
+#our-team a {
+    color: #003366;
+
+}
+
+#our-team a:hover i {
+    color: #ff9933;
+    transform: translateY(-5px);
+    transition-duration: 0.6s;
+}
+
+
+
+/*start-contact-section*/
+#contact-section {
+    background-image: url(../img/cont.png);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 2rem;
+}
+
+#sm-section {
+    margin-top: 10rem;
+}
+
+#sm-section p {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 0.8rem;
+    color: #fff;
+}
+
+#sm-section span {
+    margin-top: 0.5rem
+}
+
+.social-icon a {
+    color: #ff9933;
+    text-decoration: none;
+    margin-top: 0.9rem;
+    padding: 1em;
+}
+
+.social-icon a:hover i {
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+}
+
+#contact-section h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+    margin-top: 3rem;
+    color: #fff;
+}
+
+.contact-form {
+    max-width: 600px;
+    overflow: hidden;
+    padding: 0 10px;
+    margin: auto;
+}
+
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: none;
+    padding: 10px 10px;
+    outline: none;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-weight: bold;
+    transition: 0.5;
+}
+
+.contact-form-text:hover {
+    box-shadow: 0 0 10px 4px #ff9933;
+}
+
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn {
+    border: none;
+    float: right;
+}
+
+.contact-form-btn:hover {
+    box-shadow: 0 0 10px 4px #003366;
+}
+
+
+
+/*---------about-us.html---*/
+
+
+
+/*start-pages-header*/
+
+#separate-pages-header {
+    background-image: url(../img/about-us-header.png);
+    background-position: fixed;
+    background-size: cover;
+    height: 200px;
+}
+
+/*-----our-mission.html------*/
+
+/*start-our-mission*/
+
+
+#our-mission-page h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+#our-mission-page p {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 1.5em !important;
+    font-weight: bold;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#our-mission-page h6 {
+    font-size: 1.6rem;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+}
+
+#our-mission-page {
+    text-align: center !important;
+    margin-top: 1rem;
+    text-decoration: none !important;
+}
+
+
+/*our-product.html*/
+
+#our-product-sep h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+    margin-top: 4rem;
+}
+
+#our-product-sep p {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 1.5em !important;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+#our-product-sep .table {
+    margin-top: 11rem !important;
+}
+
+.table .thead-dark th {
+    background: rgb(255, 153, 51) !important;
+    background: linear-gradient(16deg, rgba(255, 153, 51, 1) 0%, rgba(250, 154, 58, 1) 50%, rgba(0, 51, 102, 1) 100%) !important;
+    border: 2px solid #fff;
+}
+
+
+#our-product-sep img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    padding-bottom: 1rem;
+}
+
+#our-product-sep h4 {
+    font-family: 'Anton', sans-serif !important;
+    font-weight: bold;
+    font-size: 2.6rem;
+    text-align: center;
+}
+
+#our-product-sep h5 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2rem;
+    color: #ff9933;
+}
+
+/*-------------------------XXX-------------*/
